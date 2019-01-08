@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", event => {
 if (navigator.serviceWorker) {
 	navigator.serviceWorker.register('./sw.js')
 	.then(function(reg) {
@@ -7,3 +8,4 @@ if (navigator.serviceWorker) {
 		console.log('Registration failed!',e);
 	});
 }
+});
