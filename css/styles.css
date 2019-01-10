@@ -44,7 +44,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 5%;
+  padding: 3%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -200,7 +200,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 45%;
+  width: 100%;
   padding: 2%;
 }
 #restaurant-name {
@@ -295,6 +295,10 @@ nav h1 a {
     top: 0;
     width: 100%;
     z-index: 1000;
+  }
+
+  .inside footer{
+    width: 45%;
   }
   .inside #map-container {
     height: 87%;
